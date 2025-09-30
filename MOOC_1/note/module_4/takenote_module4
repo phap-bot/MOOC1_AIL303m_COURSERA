@@ -1,0 +1,35 @@
+Estimation, Inference & Hypothesis Testing
+Estimation and Inference
+Inferential Statistics:
+- Learn population characteristics from a sample.
+- Population characteristics = parameters.
+- Sample characteristics = statistics.
+- Parametric models use parameters like mean and standard deviation.
+
+Estimation:
+- Common method: Maximum Likelihood Estimation (MLE).
+- Estimation = determining population parameter from fitted model.
+
+Distributions:
+- Uniform, Normal, Log-normal, Exponential, Poisson.
+
+Approaches:
+- Frequentist: many experiment repetitions.
+- Bayesian: parameters described by probability distributions.
+Hypothesis Testing
+Definitions:
+- Hypothesis: statement about a population parameter.
+- Null hypothesis (H0) vs. Alternative hypothesis (H1).
+- Hypothesis test = decision rule for accepting or rejecting H0.
+
+Errors:
+- Type I error: reject H0 when it is true (false positive).
+- Type II error: fail to reject H0 when it is false (false negative).
+Significance Level & p-values
+- Significance level: threshold (e.g., 0.01, 0.05) chosen before test.
+- p-value: smallest significance level at which H0 would be rejected.
+- Confidence interval: values of statistic where we accept H0.
+Correlations
+- Correlation can help predict outcomes but does not imply causation.
+- Consider confounding variables before making recommendations.
+- Spurious correlations may appear due to coincidences in data.
