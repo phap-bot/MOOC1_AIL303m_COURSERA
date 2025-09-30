@@ -1,0 +1,16 @@
+AI / ML / DL Notes
+AI Concepts
+AI: machines mimic human intelligence (learn, solve problems).
+ML: machines learn from data (no step-by-step coding).
+DL: ML with multi-layer neural nets, learns from big data.
+History & Applications
+History: AI booms & winters.
+Applications: speech, vision, health, robots…
+Modern AI: big data, fast computers, open-source, diverse neural networks.
+ML Workflow
+Problem → Collect data → Preprocess → Model → Validate → Deploy
+Taxonomy
+target = what to predict
+features = inputs
+example = one data row
+label = target value of example
