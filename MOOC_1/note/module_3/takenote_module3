@@ -1,0 +1,24 @@
+Exploratory Data Analysis & Feature Engineering
+Exploratory Data Analysis (EDA)
+Definition:
+- EDA is an approach to analyzing data sets that summarizes their main characteristics, often using visual methods.
+- Helps determine if data is usable as-is or needs further cleaning.
+
+Importance:
+- Identifies patterns.
+- Observes trends.
+- Helps formulate hypotheses.
+
+Common techniques:
+- Summary statistics.
+- Visualizations.
+Feature Engineering & Variable Transformation
+Purpose:
+- Transforming variables helps meet assumptions of statistical models.
+- Example: In linear regression, transform predictors to create a linear relation with target.
+
+Common transformations:
+- Log transformations.
+- Polynomial features.
+- Encoding categorical variables.
+- Scaling variables.
