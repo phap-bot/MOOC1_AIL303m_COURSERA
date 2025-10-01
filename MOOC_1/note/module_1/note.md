@@ -54,7 +54,7 @@ Features: Input variables (e.g., petal length, sepal width).
 
 Target: What we predict (e.g., iris species).
 
-<img width="1072" height="1052" alt="image" src="https://github.com/user-attachments/assets/dc7ec1db-afa1-48ff-8550-becf48db5b5c" />
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/dc7ec1db-afa1-48ff-8550-becf48db5b5c" />
 
 
 3. Types of ML
