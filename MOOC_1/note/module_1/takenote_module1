@@ -1,16 +1,85 @@
-AI / ML / DL Notes
-AI Concepts
-AI: machines mimic human intelligence (learn, solve problems).
-ML: machines learn from data (no step-by-step coding).
-DL: ML with multi-layer neural nets, learns from big data.
-History & Applications
-History: AI booms & winters.
-Applications: speech, vision, health, robots…
-Modern AI: big data, fast computers, open-source, diverse neural networks.
-ML Workflow
-Problem → Collect data → Preprocess → Model → Validate → Deploy
-Taxonomy
-target = what to predict
-features = inputs
-example = one data row
-label = target value of example
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{caption}
+
+\title{AI / ML / DL Notes}
+\author{Pháp -- Study Notes}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{AI Concepts}
+\begin{itemize}
+    \item \textbf{Artificial Intelligence (AI):} Machines mimic human intelligence (reasoning, learning, problem-solving).
+    \item \textbf{Machine Learning (ML):} Machines learn patterns from data without being explicitly programmed.
+    \item \textbf{Deep Learning (DL):} Subset of ML using multi-layer neural networks, excels with large datasets.
+\end{itemize}
+
+\section{History \& Applications}
+\begin{itemize}
+    \item \textbf{History:} AI booms (1950s symbolic AI, 1980s expert systems, 2010s deep learning) and AI winters (funding drops due to overhype).
+    \item \textbf{Applications:} Speech recognition, computer vision, healthcare diagnostics, robotics, recommendation systems.
+    \item \textbf{Modern AI Factors:} Big data availability, GPU/TPU acceleration, open-source frameworks (TensorFlow, PyTorch), diverse neural architectures (CNN, RNN, Transformers).
+\end{itemize}
+
+\section{ML Workflow}
+\[
+\text{Problem Definition} \;\rightarrow\; \text{Data Collection} \;\rightarrow\; 
+\text{Preprocessing} \;\rightarrow\; \text{Modeling} \;\rightarrow\; 
+\text{Validation} \;\rightarrow\; \text{Deployment}
+\]
+
+\subsection*{Example Loss Functions}
+\begin{itemize}
+    \item Regression (Mean Squared Error, MSE):
+    \[
+    L(\theta) = \frac{1}{n} \sum_{i=1}^{n} \left( y_i - \hat{y}_i \right)^2
+    \]
+    \item Classification (Binary Cross-Entropy):
+    \[
+    L(\theta) = -\frac{1}{n} \sum_{i=1}^{n} \Big[ y_i \log(\hat{y}_i) + (1-y_i)\log(1-\hat{y}_i) \Big]
+    \]
+\end{itemize}
+
+\section{Taxonomy of ML Terms}
+\begin{itemize}
+    \item \textbf{Target ($y$)} = what to predict.
+    \item \textbf{Features ($x_1, x_2, ..., x_m$)} = input variables.
+    \item \textbf{Example ($\mathbf{x}_i$)} = one row of dataset.
+    \item \textbf{Label ($y_i$)} = true target value for example $\mathbf{x}_i$.
+\end{itemize}
+
+Dataset representation:
+\[
+D = \{ (\mathbf{x}_i, y_i) \}_{i=1}^n
+\]
+
+\section{Figures}
+
+\subsection*{(a) AI vs ML vs DL Relationship}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{AI-ML-DL.png}
+    \caption{AI vs ML vs DL. Source: \href{https://www.ibm.com/blogs/research/2018/08/ai-ml-dl/}{IBM Blog}}
+\end{figure}
+
+\subsection*{(b) Machine Learning Workflow}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\textwidth]{ML-workflow.png}
+    \caption{ML Workflow. Source: \href{https://towardsdatascience.com/machine-learning-workflow-a-step-by-step-guide-437d922009c8}{Towards Data Science}}
+\end{figure}
+
+\subsection*{(c) Neural Network Diagram}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\textwidth]{neural-network.png}
+    \caption{Artificial Neural Network. Source: \href{https://en.wikipedia.org/wiki/Artificial_neural_network}{Wikipedia}}
+\end{figure}
+
+\end{document}
